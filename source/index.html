@@ -4,9 +4,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <header class="header">
+        <img class="header_logo" src="" alt="">
+        <p class="header_phone">8 (800) 555-35-35</p>
+        <button class="header_mob-nav-btn">Open</button>
+        <ul>
+            <li>Наши услуги</li>
+            <li>Контакты</li>
+            <li>Онлайн-заявка</li>
+        </ul>
+    </header>
+    <main class="content">
+        <section class="content_services services">
+            <h1 class="services_title">Экологическая безопасность</h1>
+            <ul class="services_list">
+                <li class="services_item">Пожарная безопасность</li>
+                <li class="services_item">Экологическая безопасность</li>
+                <li class="services_item">Сертификация товаров и услуг</li>
+            </ul>
+        </section>
+        <section class="content_docs docs">
+            <h2 class="docs_title">Аттестаты аккредитации</h2>
+            <ul class="docs_list">
+                <li class="docs_item">Аттестат 1</li>
+                <li class="docs_item">Аттестат 2</li>
+                <li class="docs_item">Аттестат 3</li>
+            </ul>
+        </section>
+        <section class="content_benefits benefits">
+            <h2 class="benefits_title">Почему предпочитают работать именно с нами?</h2>
+            <ul class="benefits_list">
+                <li class="benefits_item benefits-item">
+                    <img class="benefits-item_image" src="" alt="">
+                    <p class="benefits-item_title">МЫ РАБОТАЕМ БЫСТРО</p>
+                    <p class="benefits-item_desc">Мы делаем процесс прохождения сертификации простым и удобным для вас. Нашему клиенту достаточно озвучить задачу и мы приступаем к работе</p>
+                </li>
+                <li class="benefits_item benefits-item">
+                    <img class="benefits-item_image" src="" alt="">
+                    <p class="benefits-item_title">МЫ РАБОТАЕМ БЫСТРО</p>
+                    <p class="benefits-item_desc">Мы делаем процесс прохождения сертификации простым и удобным для вас. Нашему клиенту достаточно озвучить задачу и мы приступаем к работе</p>
+                </li>
+                <li class="benefits_item benefits-item">
+                    <img class="benefits-item_image" src="" alt="">
+                    <p class="benefits-item_title">МЫ РАБОТАЕМ БЫСТРО</p>
+                    <p class="benefits-item_desc">Мы делаем процесс прохождения сертификации простым и удобным для вас. Нашему клиенту достаточно озвучить задачу и мы приступаем к работе</p>
+                </li>
+                <li class="benefits_item benefits-item">
+                    <img class="benefits-item_image" src="" alt="">
+                    <p class="benefits-item_title">МЫ РАБОТАЕМ БЫСТРО</p>
+                    <p class="benefits-item_desc">Мы делаем процесс прохождения сертификации простым и удобным для вас. Нашему клиенту достаточно озвучить задачу и мы приступаем к работе</p>
+                </li>
+            </ul>
+        </section>
+        <section class="content_partners partners">
+            <h2 class="partners_title">Наши партнеры</h2>
+        </section>
+        <section class="content_contact-us contact-us">
+            <h2 class="contact-us_title">Оставить онлайн-заявку</h2>
+            <form class="contact-us_form form" action="/" method="post">
+                <p class="form_desc">Получите бесплатную консультацию эксперта. Заполните форму, и мы перезвоним в течение 10 минут. Или вы можете позвонить нам по бесплатному телефону:</p>
+                <p class="form_phone">8 (800) 555-35-35</p>
+                <label>
+                    <input type="text" placeholder="Имя или название компании" name="Name" required>
+                </label>
+                <label>
+                    <input type="email" placeholder="E-mail" name="E-mail">
+                </label>
+                <label>
+                    <input type="tel" placeholder="+7 (___) ___-__-__" name="Tel" required>
+                </label>
+                <textarea name="Comment" id="comment" cols="30" rows="10" placeholder="Ваш комментарий"></textarea>
+                <label>
+                    <input type="checkbox" name="agreement" required>
+                </label>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer_company-info">Орган по сертификации продукции и услуг «ЦЕНТР-СТАНДАРТ»</p>
+        <p class="footer_year">© 2022. Центр сертификации и стандартизации в Москве</p>
+        <ul>
+            <li>E-mail: info@standart-centr.ru</li>
+            <li>8 (800) 555-35-35</li>
+        </ul>
+    </footer>
 </body>
 </html>
